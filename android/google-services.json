@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706451884609",
+    "project_id": "bugtreck-b648e",
+    "storage_bucket": "bugtreck-b648e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706451884609:android:3c1f40d56426065ce794c0",
+        "android_client_info": {
+          "package_name": "com.example.bugtreck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa5H_5ngQuMCe9iwFsKGwoyllansJ10Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

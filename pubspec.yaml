@@ -1,0 +1,69 @@
+name: bugtreck_app
+description: A Flutter bug tracker with roles, reports, charts, notifications.
+publish_to: "none"
+version: 1.3.0+4
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_markdown: ^0.7.3
+  url_launcher: ^6.3.0
+
+  # Навигация
+  go_router: ^14.2.0
+
+  # Firebase (единое "поколение" core ^3.x)
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_storage: ^12.0.0
+  firebase_messaging: ^15.0.0
+
+  # Состояние / утилиты
+  provider: ^6.1.2
+  intl: ^0.19.0
+  collection: ^1.18.0
+  uuid: ^4.4.0
+
+  # Настройки / локальные сохранения
+  shared_preferences: ^2.2.3
+
+  # Графики / статистика
+  fl_chart: ^0.68.0
+
+  # Отчёты (PDF/CSV/Share)
+  printing: ^5.13.4
+  pdf: ^3.10.8
+  csv: ^5.1.1
+  share_plus: ^10.0.2
+  path_provider: ^2.1.3
+
+  # Файлы / медиа
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+
+  # Локальные уведомления (для FCM в foreground)
+  flutter_local_notifications: ^18.0.1
+
+  # Мультиселект / канбан / dnd
+  multi_select_flutter: ^4.1.3
+  drag_and_drop_lists: ^0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/Roboto-Regular.ttf
+    - assets/fonts/Roboto-Bold.ttf
