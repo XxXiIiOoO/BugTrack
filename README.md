@@ -1,36 +1,49 @@
-# BugTreck — Flutter Issue Tracker
+# BugTreck — мобильный баг-трекер
 
-A mobile issue-tracking application built with **Flutter** and **Firebase**, focused on organizing defects, assignments, and project activity.
+Приложение для учёта дефектов и организации работы с задачами, разработанное на **Flutter** с использованием **Firebase**.
 
-**Tech stack:** Flutter · Dart · Firebase Authentication · Cloud Firestore · Firebase Cloud Messaging · Provider · fl_chart
+**Технологии:** Flutter · Dart · Firebase Authentication · Cloud Firestore · Firebase Cloud Messaging · Provider · fl_chart
 
-## Overview
+## О проекте
 
-BugTreck is a learning project exploring a complete mobile workflow for issue management, from authentication to reporting.
+BugTreck — учебный проект мобильного приложения для управления дефектами: от авторизации пользователей и создания записей до просмотра статистики и подготовки отчётов.
 
-### Main areas
+## Основные возможности
 
-- Authentication and user accounts with Firebase
-- Issue records, priorities, statuses and assignments
-- Role-oriented administration and project workflows
-- Filtering, statistics and charts
-- PDF/CSV reporting and sharing
-- Notifications and mobile-friendly navigation
+- Регистрация и авторизация пользователей через Firebase.
+- Создание и ведение записей о дефектах, приоритетах, статусах и исполнителях.
+- Разграничение ролей и административные сценарии.
+- Фильтрация данных, статистика и графики.
+- Формирование и экспорт отчётов в PDF и CSV.
+- Уведомления и навигация в мобильном интерфейсе.
 
-## Getting started
+## Технологический стек
 
-1. Install the Flutter SDK and run `flutter pub get`.
-2. Configure your own Firebase project and platform-specific Firebase files.
-3. Enable the Firebase services required by the app and configure appropriate security rules.
-4. Run `flutter run` on a supported device or emulator.
+| Компонент | Технология |
+| --- | --- |
+| Мобильное приложение | Flutter, Dart |
+| Авторизация | Firebase Authentication |
+| Хранение данных | Cloud Firestore |
+| Уведомления | Firebase Cloud Messaging |
+| Управление состоянием | Provider |
+| Статистика | fl_chart |
+| Отчёты | pdf, csv, printing |
 
-> Firebase credentials and project-specific configuration are not included in this guide. Do not commit private keys or service-account files.
+## Запуск
 
-## Why this project?
+1. Установите Flutter SDK.
+2. В каталоге проекта установите зависимости:
 
-This project demonstrates application development, authentication, data modeling, and user-facing reporting alongside my backend and infrastructure projects.
+```bash
+flutter pub get
+```
 
-## Related projects
+3. Создайте и настройте собственный проект Firebase, добавьте конфигурацию для нужной платформы.
+4. Включите необходимые сервисы Firebase и настройте правила доступа.
+5. Запустите приложение на устройстве или эмуляторе:
 
-- [BlockTest](https://github.com/XxXiIiOoO/Tes-Block-D) — containerized test execution platform
-- [Semantic Search](https://github.com/XxXiIiOoO/SemanticReserch) — FastAPI and vector search
+```bash
+flutter run
+```
+
+> Не публикуйте приватные ключи и файлы сервисных аккаунтов Firebase. Для корректной работы приложения необходима собственная конфигурация Firebase.
