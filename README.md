@@ -1,16 +1,36 @@
-# bugtreck
+# BugTreck — Flutter Issue Tracker
 
-A new Flutter project.
+A mobile issue-tracking application built with **Flutter** and **Firebase**, focused on organizing defects, assignments, and project activity.
 
-## Getting Started
+**Tech stack:** Flutter · Dart · Firebase Authentication · Cloud Firestore · Firebase Cloud Messaging · Provider · fl_chart
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+BugTreck is a learning project exploring a complete mobile workflow for issue management, from authentication to reporting.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Main areas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Authentication and user accounts with Firebase
+- Issue records, priorities, statuses and assignments
+- Role-oriented administration and project workflows
+- Filtering, statistics and charts
+- PDF/CSV reporting and sharing
+- Notifications and mobile-friendly navigation
+
+## Getting started
+
+1. Install the Flutter SDK and run `flutter pub get`.
+2. Configure your own Firebase project and platform-specific Firebase files.
+3. Enable the Firebase services required by the app and configure appropriate security rules.
+4. Run `flutter run` on a supported device or emulator.
+
+> Firebase credentials and project-specific configuration are not included in this guide. Do not commit private keys or service-account files.
+
+## Why this project?
+
+This project demonstrates application development, authentication, data modeling, and user-facing reporting alongside my backend and infrastructure projects.
+
+## Related projects
+
+- [BlockTest](https://github.com/XxXiIiOoO/Tes-Block-D) — containerized test execution platform
+- [Semantic Search](https://github.com/XxXiIiOoO/SemanticReserch) — FastAPI and vector search
